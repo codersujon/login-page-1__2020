@@ -1,0 +1,4 @@
+primary-color: #00b242;
+white: #fff;
+text-color:#a1a1a1 ;
+grey-bg:#f2f2f2;

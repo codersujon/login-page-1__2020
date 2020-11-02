@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+body{
+	background: #00b242;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+	font-family: arial;
+}
+.login{
+	width: 380px;
+	height: 400px;
+	background: #fff;
+	padding: 40px;
+	text-align: center;
+}
+.login h1{
+	color: #00b242;
+	font-weight: 100;
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+.login input{
+	width: 100%;
+	height: 55px;
+	font-size: 17px;
+	background: #f2f2f2;
+	margin-bottom: 20px;
+	border: 2px solid transparent;
+	padding: 0 20px;
+	color: #a1a1a1;
+	transition: .3s;
+}
+.login input:hover{
+	border-color:#00b242;
+}
+.login__btn a{
+	background: #00b242;
+	display: block;
+	padding: 12px 0;
+	font-size: 20px;
+	font-weight: 400;
+	color: #fff;
+	border: 2px solid transparent;
+	transition: .5s;
+	margin-bottom: 20px;
+}
+.login__btn a:hover{
+	background: none;
+	border-color: #00b242;
+	color: #00b242;
+}
+.link a{
+	color: #a1a1a1;
+}
+.link .active,
+.link a:hover{
+	color: #00b242;
+}
